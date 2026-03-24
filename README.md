@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project extends the original PiDog robotic platform by integrating AI-based interaction systems including NLP, emotion modelling, and computer vision.
 
-## 🚀 My Contributions
+## 🚀 Our Contributions
 - Designed and implemented emotion modelling system
 - Integrated voice-based interaction using NLP
 - Developed modular AI architecture for behaviour control
