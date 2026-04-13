@@ -44,7 +44,7 @@ J.A.R.V.I.S is not a pre-programmed robot — it learns, responds, and interacts
 ### What's in the kit
 
 - SunFounder PiDog chassis, servo motors, and linkage arms
-- Raspberry Pi 4 (4GB)
+- Raspberry Pi 5 
 - Robot HAT with speaker output
 - Pi Camera Module
 - Ultrasonic sensor module
