@@ -44,7 +44,7 @@ J.A.R.V.I.S is not a pre-programmed robot — it learns, responds, and interacts
 ### What's in the kit
 
 - SunFounder PiDog chassis, servo motors, and linkage arms
-- Raspberry Pi 5 
+- Raspberry Pi 5
 - Robot HAT with speaker output
 - Pi Camera Module
 - Ultrasonic sensor module
@@ -203,7 +203,7 @@ pidog/
 
 | Component | Technology |
 |---|---|
-| Platform | Raspberry Pi 4 + SunFounder PiDog SDK |
+| Platform | Raspberry Pi 5 + SunFounder PiDog SDK |
 | Sign detection | MediaPipe Hands |
 | Sign classification | scikit-learn RandomForest |
 | Wake word | Picovoice Porcupine / Vosk |
@@ -212,6 +212,8 @@ pidog/
 | Object detection | YOLOv8n + OpenCV |
 | Text-to-speech | pyttsx3 / espeak-ng |
 | Language | Python 3.11+ |
+
+> **Note on Raspberry Pi 5:** The Pi 5 is not officially supported by SunFounder's PiDog SDK out of the box. The Robot HAT uses the `pigpio` library for GPIO/PWM control, which requires a compatibility workaround on Pi 5 since `pigpio` does not yet fully support the Pi 5's RP1 I/O controller. See [Known Issues](#known-issues--sprint-notes) for the fix.
 
 ---
 
